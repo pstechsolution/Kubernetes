@@ -1,0 +1,11 @@
+appVersion: V1
+kind: pod
+metadata: 
+  name: pod1
+  labels:
+   app: java
+   author: chandra
+spec:
+  containers:
+   - image: nginx
+    name: c1
